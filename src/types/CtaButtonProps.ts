@@ -1,5 +1,5 @@
-interface CtaButtonProps {
+export interface CtaButtonProps {
     label: string;
-    onClick?: void;
+    onClick?: () => void;
     className?: string;
 }
