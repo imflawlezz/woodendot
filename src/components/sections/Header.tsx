@@ -10,7 +10,7 @@ export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="bg-white font-cardo py-4 px-5 relative">
+        <header className="sticky top-0 z-50 bg-white font-cardo py-4 px-5">
             <div className="hidden md:flex items-center">
                 <nav className="flex-1 flex items-center gap-8 text-lg">
                     <Link
@@ -71,7 +71,7 @@ export const Header = () => {
 
                 <div className="w-10"></div> {/* Spacer for balance */}
             </div>
-            
+
             {isOpen && (
                 <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg z-50">
                     <nav className="flex flex-col items-center gap-6 py-6 text-lg">
