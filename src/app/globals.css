@@ -6,6 +6,8 @@
   --foreground: #171717;
   --border: #F2F2F2;
   --hover: #BC1414;
+  --paragraph: #525252;
+  --paragraph-variant: #54595F;
   --font-roboto: #{roboto.style.fontFamily};
   --font-cardo: #{cardo.style.fontFamily};
 }
