@@ -1,6 +1,7 @@
 import {Header} from "@/components/sections/Header";
 import {Hero} from "@/components/sections/Hero";
 import {Advantages} from "@/components/sections/Advantages";
+import {Categories} from "@/components/sections/Categories";
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Header />
             <Hero/>
             <Advantages/>
+            <Categories />
         </>
     );
 }
