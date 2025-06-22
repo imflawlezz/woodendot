@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {resolveAsset} from "@/utils/resolveAsset";
 
 export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,7 @@ export const Header = () => {
 
                 <div className="flex-1 flex justify-center">
                     <Image
-                        src="/logos/logo.svg"
+                        src={resolveAsset('logos', 'logo.svg')}
                         alt="Logo"
                         width={170}
                         height={36}
@@ -61,7 +62,7 @@ export const Header = () => {
 
                 <div className="flex-1 flex justify-center">
                     <Image
-                        src="/logo.svg"
+                        src={resolveAsset('logos', 'logo.svg')}
                         alt="Logo"
                         width={170}
                         height={36}
