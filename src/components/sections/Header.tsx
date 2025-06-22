@@ -35,7 +35,7 @@ export const Header = () => {
 
                 <div className="flex-1 flex justify-center">
                     <Image
-                        src="/logo.svg"
+                        src="/logos/logo.svg"
                         alt="Logo"
                         width={170}
                         height={36}
