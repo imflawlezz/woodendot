@@ -68,7 +68,8 @@ export const CustomerPhotosSlider = () => {
                 {CustomerPhotosList.map((_, idx) => (
                     <button
                         key={idx}
-                        className={`w-2 h-2 ${
+                        className={`w-2 h-2
+                        transition-all duration-300 ease-out ${
                             idx === currentSlide ? 'scale-150 bg-black' : 'bg-gray-300'
                         }`}
                         onClick={() => instanceRef.current?.moveToIdx(idx)}
