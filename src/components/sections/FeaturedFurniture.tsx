@@ -3,7 +3,7 @@ import {FeaturedFurnitureList} from "@/data/FeaturedFurnitureList";
 
 export const FeaturedFurniture = () => {
     return (
-        <section className="flex flex-col md:gap-y-7 lg:mt-28">
+        <section className="flex flex-col gap-y-4 md:gap-y-7 my-6 lg:mt-28">
             {FeaturedFurnitureList.map((item, index) => (
                 <FurnitureCard
                     key={`${item.title}-${index}`}
