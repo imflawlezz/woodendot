@@ -4,16 +4,18 @@ import {Advantages} from "@/components/sections/Advantages";
 import {Categories} from "@/components/sections/Categories";
 import {FeaturedFurniture} from "@/components/sections/FeaturedFurniture";
 import {CustomerPhotos} from "@/components/sections/CustomerPhotos";
+import {Reviews} from "@/components/sections/Reviews";
 
 export default function Home() {
     return (
         <>
-            <Header />
+            <Header/>
             <Hero/>
             <Advantages/>
-            <Categories />
+            <Categories/>
             <FeaturedFurniture/>
             <CustomerPhotos/>
+            <Reviews/>
         </>
     );
 }
