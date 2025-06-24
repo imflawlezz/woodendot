@@ -7,6 +7,7 @@ export const assetPaths = {
     products: `${assetRoot}products`,
     logos: `${assetRoot}logos`,
     awards: `${assetRoot}awards`,
+    customers: `${assetRoot}customer-photos`,
 } as const;
 
 export type AssetCategory = keyof typeof assetPaths;
