@@ -3,6 +3,7 @@ import {Hero} from "@/components/sections/Hero";
 import {Advantages} from "@/components/sections/Advantages";
 import {Categories} from "@/components/sections/Categories";
 import {FeaturedFurniture} from "@/components/sections/FeaturedFurniture";
+import {CustomerPhotos} from "@/components/sections/CustomerPhotos";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <Advantages/>
             <Categories />
             <FeaturedFurniture/>
+            <CustomerPhotos/>
         </>
     );
 }
