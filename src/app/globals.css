@@ -8,6 +8,7 @@
   --hover: #BC1414;
   --paragraph: #525252;
   --paragraph-variant: #54595F;
+  --stories-bg: #F8F8F8;
   --font-roboto: #{roboto.style.fontFamily};
   --font-cardo: #{cardo.style.fontFamily};
 }
