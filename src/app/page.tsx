@@ -5,6 +5,7 @@ import {Categories} from "@/components/sections/Categories";
 import {FeaturedFurniture} from "@/components/sections/FeaturedFurniture";
 import {CustomerPhotos} from "@/components/sections/CustomerPhotos";
 import {Reviews} from "@/components/sections/Reviews";
+import {Stories} from "@/components/sections/Stories";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <FeaturedFurniture/>
             <CustomerPhotos/>
             <Reviews/>
+            <Stories/>
         </>
     );
 }
