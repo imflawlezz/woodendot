@@ -1,4 +1,4 @@
-const assetRoot = '/';
+const assetRoot = '/assets/';
 
 export const assetPaths = {
     sections: `${assetRoot}sections`,
