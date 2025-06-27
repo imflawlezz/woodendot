@@ -9,6 +9,7 @@
   --paragraph: #525252;
   --paragraph-variant: #54595F;
   --stories-bg: #F8F8F8;
+  --footer: #E9E9E9;
   --font-roboto: #{roboto.style.fontFamily};
   --font-cardo: #{cardo.style.fontFamily};
 }
