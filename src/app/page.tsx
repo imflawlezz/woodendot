@@ -7,6 +7,7 @@ import {CustomerPhotos} from "@/components/sections/CustomerPhotos";
 import {Reviews} from "@/components/sections/Reviews";
 import {Stories} from "@/components/sections/Stories";
 import {Publishers} from "@/components/sections/Publishers";
+import {Footer} from "@/components/sections/Footer";
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
             <Reviews/>
             <Stories/>
             <Publishers/>
+            <Footer/>
         </>
     );
 }
