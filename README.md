@@ -38,7 +38,12 @@ woodendot-landing
 
 ## 📷 Preview
 
-![Screenshot](/public/preview.jpeg)
+![Screenshot](/public/preview-1.jpeg)
+![Screenshot](/public/preview-2.jpeg)
+![Screenshot](/public/preview-3.jpeg)
+![Screenshot](/public/preview-4.jpeg)
+![Screenshot](/public/preview-5.jpeg)
+![Screenshot](/public/preview-6.jpeg)
 
 ## 🧑‍💻 What I Practiced
 
