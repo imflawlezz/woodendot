@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Cardo } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -25,11 +26,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} ${cardo.variable} antialiased`}
-      >
-        {children}
-      </body>
+        <Head>
+            <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+        </Head>
+        <body
+            className={`${roboto.variable} ${cardo.variable} antialiased`}
+        >
+            {children}
+        </body>
     </html>
   );
 }
